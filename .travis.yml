@@ -27,7 +27,7 @@ script:
   - ./run.sh eg5
   - ./run.sh eg6
   - ./run.sh eg7
-  - ./run.sh NC
+  # - ./run.sh NC
   - ./run.sh MCH
   - ./run.sh solvent_hexane
   - ./run.sh methane
