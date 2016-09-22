@@ -22,7 +22,7 @@ mkdir -p $tested
 cd $tested
 
 # create anaconda environment with benchmark versions of RMG-Py and RMG-database:
-conda env remove --name benchmark -y
+# conda env remove --name benchmark -y
 conda create -c rmg --name benchmark rmg=$RMG_VERSION rmgdatabase=$DB_VERSION -y
 
 # split the message on the '-' delimiter
